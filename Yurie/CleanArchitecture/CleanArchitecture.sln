@@ -8,8 +8,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Yurie", "Yurie", "{7F22F4C8
 		TextFile1.txt = TextFile1.txt
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransactionFulfillment", "Banking_Yurie\TransactionFulfillment.csproj", "{FA774E93-8391-421B-AAA0-0B075022619B}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransactionFulfillment.Application", "TransactionFulfillment.Application\TransactionFulfillment.Application.csproj", "{DFD96E28-7D84-43EF-BE65-419CAC107B53}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransactionFulfilment.Entity", "TransactionFulfilment.Entity\TransactionFulfilment.Entity.csproj", "{6324D8A7-7001-48C2-B871-583A513C3B97}"
@@ -18,16 +16,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransactionFulfilment.Infra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransactionFulfilement.API", "TransactionFulfilement.API\TransactionFulfilement.API.csproj", "{83C25BB0-6739-4C95-A07E-677654EBFD82}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BadDesignPattern", "BadDesignPattern", "{C97BC2AD-A291-47E0-BDD1-9BF6DFD0C18E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransactrionServices", "TransactrionServices\TransactrionServices.csproj", "{2841750C-438D-46C8-BAF5-F5053D557336}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{FA774E93-8391-421B-AAA0-0B075022619B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FA774E93-8391-421B-AAA0-0B075022619B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FA774E93-8391-421B-AAA0-0B075022619B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FA774E93-8391-421B-AAA0-0B075022619B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{DFD96E28-7D84-43EF-BE65-419CAC107B53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{DFD96E28-7D84-43EF-BE65-419CAC107B53}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DFD96E28-7D84-43EF-BE65-419CAC107B53}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -44,16 +42,21 @@ Global
 		{83C25BB0-6739-4C95-A07E-677654EBFD82}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{83C25BB0-6739-4C95-A07E-677654EBFD82}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{83C25BB0-6739-4C95-A07E-677654EBFD82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2841750C-438D-46C8-BAF5-F5053D557336}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2841750C-438D-46C8-BAF5-F5053D557336}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2841750C-438D-46C8-BAF5-F5053D557336}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2841750C-438D-46C8-BAF5-F5053D557336}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{FA774E93-8391-421B-AAA0-0B075022619B} = {7F22F4C8-5A1C-4A2D-AFFE-C9A893D9B41F}
 		{DFD96E28-7D84-43EF-BE65-419CAC107B53} = {7F22F4C8-5A1C-4A2D-AFFE-C9A893D9B41F}
 		{6324D8A7-7001-48C2-B871-583A513C3B97} = {7F22F4C8-5A1C-4A2D-AFFE-C9A893D9B41F}
 		{795B425C-012B-4977-8B10-B8125C9EDDF2} = {7F22F4C8-5A1C-4A2D-AFFE-C9A893D9B41F}
 		{83C25BB0-6739-4C95-A07E-677654EBFD82} = {7F22F4C8-5A1C-4A2D-AFFE-C9A893D9B41F}
+		{C97BC2AD-A291-47E0-BDD1-9BF6DFD0C18E} = {7F22F4C8-5A1C-4A2D-AFFE-C9A893D9B41F}
+		{2841750C-438D-46C8-BAF5-F5053D557336} = {C97BC2AD-A291-47E0-BDD1-9BF6DFD0C18E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3BF289CB-5329-45F6-91E1-7ECF2FAA6477}
