@@ -7,5 +7,10 @@ namespace TransactionFulfillment.Application.Services
     interface ITransferService
     {
     }
+
+    public abstract class TransferBase
+    {
+
+    }
 }
 

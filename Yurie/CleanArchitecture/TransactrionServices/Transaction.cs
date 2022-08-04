@@ -9,14 +9,45 @@ namespace TransactrionServices
     /// </summary>
     public class Transaction
     {
+        private enum TransferType
+        {
+            TransferToOurBank,
+            TransferToOtherBank,
+            TransferToRegisteredDestination,
+            Default
+        }
+
+        /// <summary>
+        /// これはOCPに違反。1つのcaseの処理を変えるとこのメソッド全体に影響する。
+        /// </summary>
         public void TransferController()
-        { }        
+        {            
+            switch (TransferType.Default)
+            {
+                case TransferType.TransferToOurBank:
+                    //同じ銀行の他口座への送金処理
+                    break;
+                case TransferType.TransferToOtherBank:
+                    //違う銀行への送金処理
+                    break;
+                case TransferType.TransferToRegisteredDestination:
+                    //登録済み口座への送金
+                    break;
+
+                default:
+                    throw new ArgumentOutOfRangeException();
+            }
+        }
 
         public void DepositController()
-        { }
+        {
+        }
 
         public void WithdrawalController()
-        { }                
+        {
+        }
+
+        
     }
 
     public class Validation
@@ -28,7 +59,7 @@ namespace TransactrionServices
         }
 
         //預金があるかどうか
-        public bool IsDepositExist() 
+        public bool IsDepositExist()
         {
             return true;
         }
@@ -39,7 +70,7 @@ namespace TransactrionServices
     /// Transaction関連で使うインターフェース
     /// インターフェース分離の規則の違反例
     /// </summary>
-    public interface ITransactionService 
+    public interface ITransactionService
     {
         void ITransferController();
 
@@ -49,4 +80,6 @@ namespace TransactrionServices
 
         void IValidater();
     }
+
+
 }
