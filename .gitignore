@@ -27,7 +27,7 @@ build/
 !**/src/test/**/build/
 
 ### VS Code ###
-.vscode/
+.vscode
 .vs
 
 ### Mac OS ###
