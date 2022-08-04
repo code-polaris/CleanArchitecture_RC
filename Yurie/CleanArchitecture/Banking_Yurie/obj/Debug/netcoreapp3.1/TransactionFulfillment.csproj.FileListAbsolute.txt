@@ -1,0 +1,14 @@
+C:\Users\adminuser\Source\Repos\code-polaris\CleanArchitecture_RC\Yurie\CleanArchitecture\Banking_Yurie\bin\Debug\netcoreapp3.1\TransactionFulfillment.exe
+C:\Users\adminuser\Source\Repos\code-polaris\CleanArchitecture_RC\Yurie\CleanArchitecture\Banking_Yurie\bin\Debug\netcoreapp3.1\TransactionFulfillment.deps.json
+C:\Users\adminuser\Source\Repos\code-polaris\CleanArchitecture_RC\Yurie\CleanArchitecture\Banking_Yurie\bin\Debug\netcoreapp3.1\TransactionFulfillment.runtimeconfig.json
+C:\Users\adminuser\Source\Repos\code-polaris\CleanArchitecture_RC\Yurie\CleanArchitecture\Banking_Yurie\bin\Debug\netcoreapp3.1\TransactionFulfillment.runtimeconfig.dev.json
+C:\Users\adminuser\Source\Repos\code-polaris\CleanArchitecture_RC\Yurie\CleanArchitecture\Banking_Yurie\bin\Debug\netcoreapp3.1\TransactionFulfillment.dll
+C:\Users\adminuser\Source\Repos\code-polaris\CleanArchitecture_RC\Yurie\CleanArchitecture\Banking_Yurie\bin\Debug\netcoreapp3.1\TransactionFulfillment.pdb
+C:\Users\adminuser\Source\Repos\code-polaris\CleanArchitecture_RC\Yurie\CleanArchitecture\Banking_Yurie\obj\Debug\netcoreapp3.1\TransactionFulfillment.csproj.AssemblyReference.cache
+C:\Users\adminuser\Source\Repos\code-polaris\CleanArchitecture_RC\Yurie\CleanArchitecture\Banking_Yurie\obj\Debug\netcoreapp3.1\TransactionFulfillment.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\adminuser\Source\Repos\code-polaris\CleanArchitecture_RC\Yurie\CleanArchitecture\Banking_Yurie\obj\Debug\netcoreapp3.1\TransactionFulfillment.AssemblyInfoInputs.cache
+C:\Users\adminuser\Source\Repos\code-polaris\CleanArchitecture_RC\Yurie\CleanArchitecture\Banking_Yurie\obj\Debug\netcoreapp3.1\TransactionFulfillment.AssemblyInfo.cs
+C:\Users\adminuser\Source\Repos\code-polaris\CleanArchitecture_RC\Yurie\CleanArchitecture\Banking_Yurie\obj\Debug\netcoreapp3.1\TransactionFulfillment.csproj.CoreCompileInputs.cache
+C:\Users\adminuser\Source\Repos\code-polaris\CleanArchitecture_RC\Yurie\CleanArchitecture\Banking_Yurie\obj\Debug\netcoreapp3.1\TransactionFulfillment.dll
+C:\Users\adminuser\Source\Repos\code-polaris\CleanArchitecture_RC\Yurie\CleanArchitecture\Banking_Yurie\obj\Debug\netcoreapp3.1\TransactionFulfillment.pdb
+C:\Users\adminuser\Source\Repos\code-polaris\CleanArchitecture_RC\Yurie\CleanArchitecture\Banking_Yurie\obj\Debug\netcoreapp3.1\TransactionFulfillment.genruntimeconfig.cache

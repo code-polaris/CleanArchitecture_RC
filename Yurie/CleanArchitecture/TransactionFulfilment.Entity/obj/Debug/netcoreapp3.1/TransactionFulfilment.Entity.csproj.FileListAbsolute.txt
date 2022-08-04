@@ -1,0 +1,14 @@
+C:\Users\adminuser\Source\Repos\code-polaris\CleanArchitecture_RC\Yurie\CleanArchitecture\TransactionFulfilment.Entity\bin\Debug\netcoreapp3.1\TransactionFulfilment.Entity.exe
+C:\Users\adminuser\Source\Repos\code-polaris\CleanArchitecture_RC\Yurie\CleanArchitecture\TransactionFulfilment.Entity\bin\Debug\netcoreapp3.1\TransactionFulfilment.Entity.deps.json
+C:\Users\adminuser\Source\Repos\code-polaris\CleanArchitecture_RC\Yurie\CleanArchitecture\TransactionFulfilment.Entity\bin\Debug\netcoreapp3.1\TransactionFulfilment.Entity.runtimeconfig.json
+C:\Users\adminuser\Source\Repos\code-polaris\CleanArchitecture_RC\Yurie\CleanArchitecture\TransactionFulfilment.Entity\bin\Debug\netcoreapp3.1\TransactionFulfilment.Entity.runtimeconfig.dev.json
+C:\Users\adminuser\Source\Repos\code-polaris\CleanArchitecture_RC\Yurie\CleanArchitecture\TransactionFulfilment.Entity\bin\Debug\netcoreapp3.1\TransactionFulfilment.Entity.dll
+C:\Users\adminuser\Source\Repos\code-polaris\CleanArchitecture_RC\Yurie\CleanArchitecture\TransactionFulfilment.Entity\bin\Debug\netcoreapp3.1\TransactionFulfilment.Entity.pdb
+C:\Users\adminuser\Source\Repos\code-polaris\CleanArchitecture_RC\Yurie\CleanArchitecture\TransactionFulfilment.Entity\obj\Debug\netcoreapp3.1\TransactionFulfilment.Entity.csproj.AssemblyReference.cache
+C:\Users\adminuser\Source\Repos\code-polaris\CleanArchitecture_RC\Yurie\CleanArchitecture\TransactionFulfilment.Entity\obj\Debug\netcoreapp3.1\TransactionFulfilment.Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\adminuser\Source\Repos\code-polaris\CleanArchitecture_RC\Yurie\CleanArchitecture\TransactionFulfilment.Entity\obj\Debug\netcoreapp3.1\TransactionFulfilment.Entity.AssemblyInfoInputs.cache
+C:\Users\adminuser\Source\Repos\code-polaris\CleanArchitecture_RC\Yurie\CleanArchitecture\TransactionFulfilment.Entity\obj\Debug\netcoreapp3.1\TransactionFulfilment.Entity.AssemblyInfo.cs
+C:\Users\adminuser\Source\Repos\code-polaris\CleanArchitecture_RC\Yurie\CleanArchitecture\TransactionFulfilment.Entity\obj\Debug\netcoreapp3.1\TransactionFulfilment.Entity.csproj.CoreCompileInputs.cache
+C:\Users\adminuser\Source\Repos\code-polaris\CleanArchitecture_RC\Yurie\CleanArchitecture\TransactionFulfilment.Entity\obj\Debug\netcoreapp3.1\TransactionFulfilment.Entity.dll
+C:\Users\adminuser\Source\Repos\code-polaris\CleanArchitecture_RC\Yurie\CleanArchitecture\TransactionFulfilment.Entity\obj\Debug\netcoreapp3.1\TransactionFulfilment.Entity.pdb
+C:\Users\adminuser\Source\Repos\code-polaris\CleanArchitecture_RC\Yurie\CleanArchitecture\TransactionFulfilment.Entity\obj\Debug\netcoreapp3.1\TransactionFulfilment.Entity.genruntimeconfig.cache
