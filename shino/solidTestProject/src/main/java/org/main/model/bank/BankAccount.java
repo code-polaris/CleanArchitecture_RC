@@ -1,45 +1,48 @@
 package org.main.model.bank;
 
+import com.fasterxml.jackson.annotation.JsonInclude;
+import lombok.AllArgsConstructor;
 import lombok.Data;
-import lombok.Getter;
-import lombok.Setter;
-import lombok.ToString;
+import lombok.NoArgsConstructor;
 import lombok.experimental.SuperBuilder;
-import org.main.model.bank.account.BankType;
-import org.main.model.bank.function.GetAmount;
+import org.main.model.bank.account.AccountType;
 
 import javax.persistence.*;
 import java.math.BigDecimal;
 
+/**
+ * リスコフの置換原則
+ * 全てのAccountクラスはBankAccountと置き換え可能である
+ * (DB上は子クラスは全てBANK_ACCOUNTで、単にBANK_TYPEが違っているだけ)
+ */
 @Entity
-@Getter
-@Setter
-@SuperBuilder
+@Data
+@JsonInclude(JsonInclude.Include.NON_NULL)
+@AllArgsConstructor
+@NoArgsConstructor
+@SuperBuilder(toBuilder = true)
 @Table(name = "BANK_ACCOUNT")
 @Inheritance(strategy = InheritanceType.SINGLE_TABLE)
-@DiscriminatorColumn(name="BANK_TYPE", discriminatorType = DiscriminatorType.STRING)
-public abstract class BankAccount implements GetAmount {
+@DiscriminatorColumn(name = "BANK_TYPE", discriminatorType = DiscriminatorType.STRING)
+public abstract class BankAccount {
 
   @Id
   @GeneratedValue
-  private Integer id;
+  protected Integer id;
 
-  @Column(name = "BANK_NUMBER")
-  private Long bankNumber;
+//  protected String myNumber;
+
+  @Column(name = "BANK_CODE")
+  protected String bankCode;
+
+  @Column(name = "BRANCH_CODE")
+  protected String branchCode;
+
+  @Column(name = "ACOCUNT_NUMBER")
+  protected String accountNumber;
 
   @Column
-  private BigDecimal amount;
+  protected BigDecimal amount;
 
-  public BigDecimal getAmount() {
-    return getAmount();
-  }
-
-  @Override
-  public String toString() {
-    return "BankAccount{" +
-      "id=" + id +
-      ", bankNumber=" + bankNumber +
-      ", amount=" + amount +
-      '}';
-  }
+  protected AccountType accountType;
 }

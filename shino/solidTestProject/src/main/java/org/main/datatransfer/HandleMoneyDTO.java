@@ -7,10 +7,14 @@ import java.math.BigDecimal;
 @Data
 public class HandleMoneyDTO {
   public HandleMoneyDTO(BankAccountVO vo) {
-    this.id = vo.getBankId();
+    this.bankCode = vo.getBankCode();
+    this.branchCode = vo.getBranchCode();
+    this.accountNumber = vo.getAccountNumber();
     this.amount = vo.getAmount();
   }
 
-  private Integer id;
+  private String bankCode;
+  private String branchCode;
+  private String accountNumber;
   private BigDecimal amount;
 }
